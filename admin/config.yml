@@ -1,8 +1,8 @@
 ## Comment out when doing local development
 backend:
   name: github
-  repo: cloud-gov/pages-uswds-11ty
-  base_url: https://pages.cloud.gov
+  repo: apburnes/another-another-11ty-test-repo
+  base_url: https://pages-dev.cloud.gov
   auth_endpoint: external/auth/github
   preview_context: pages/build
   branch: main
