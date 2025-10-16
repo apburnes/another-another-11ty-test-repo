@@ -9,6 +9,7 @@ async function imageWithClassShortcode(
   let pathPrefix = '';
 
   if (process.env.BASEURL) {
+    console.log('GIVE ME THE BASE: ', process.env.BASEURL)
     pathPrefix = process.env.BASEURL
   }
 
